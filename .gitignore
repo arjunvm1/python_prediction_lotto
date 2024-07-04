@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Node modules
+node_modules/
+
+# Ignore built files for React
+/build
+/dist
+
+# Ignore SQLite database file (if not version controlling data)
+server/lottery.db
+
+# Ignore environment variables file (if used for sensitive data)
+.env
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore log files (if any)
+*.log
+
+# Ignore any other generated files or directories
